@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="BUSC logo">
+  <title>BUSC Stablecoin</title>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#00A8FF"/>
+      <stop offset="1" stop-color="#00D084"/>
+    </linearGradient>
+    <style>
+      .border { fill: url(#g); filter: drop-shadow(0 6px 12px rgba(0,0,0,0.12)); }
+      .inner { fill: #ffffff; }
+      .stroke { fill: none; stroke: rgba(0,0,0,0.06); stroke-width: 6; }
+      .busc { font-family: "Inter", "Helvetica Neue", Arial, sans-serif; font-weight: 700; font-size: 96px; fill: #93a13cff; letter-spacing: -4px; }
+      .tag { font-family: "Inter", "Helvetica Neue", Arial, sans-serif; font-weight: 600; font-size: 20px; fill: #b4b584ff; }
+    </style>
+  </defs>
+
+  <!-- Outer circle (gradient) -->
+  <circle cx="256" cy="256" r="180" class="border"/>
+
+  <!-- Inner white circle -->
+  <circle cx="256" cy="256" r="150" class="inner"/>
+
+  <!-- Subtle ring -->
+  <circle cx="256" cy="256" r="156" class="stroke"/>
+
+  <!-- BUSC text (centered perfectly) -->
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" class="busc">BUSC</text>
+
+  <!-- Tagline (slightly below the circle) -->
+  <text x="50%" y="460" text-anchor="middle" class="tag">The $BUSC Protocol</text>
+</svg>
+

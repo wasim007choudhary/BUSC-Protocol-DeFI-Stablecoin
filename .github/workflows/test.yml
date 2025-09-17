@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+env:
+  FOUNDRY_PROFILE: ci
+
+jobs:
+  check:
+    name: Foundry project
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Install Foundry
+        uses: foundry-rs/foundry-toolchain@v1
+
+      - name: Show Forge version
+        run: |
+          forge --version
+
+      - name: Run Forge fmt (auto-fix)
+        run: |
+          forge fmt
+
+      - name: Run Forge build
+        run: |
+          forge build --sizes
+
+      - name: Run Forge tests
+        env:
+          ANVIL_PRIVATE_KEY: ${{ secrets.ANVIL_PRIVATE_KEY }}
+        run: |
+          forge test -vv
