@@ -6,9 +6,9 @@
 **Minimal Overcollateralized Stablecoin (BUSC)**  
 Built with [Solidity](https://soliditylang.org/) • Powered by [Foundry](https://getfoundry.sh)
 
-[![GitHub Stars](https://img.shields.io/github/stars/wasim007choudhary/BUSC-StableCoin-Protocol?style=social)](https://github.com/wasim007choudhary/BUSC-StableCoin-Protocol/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/wasim007choudhary/BUSC-StableCoin-Protocol?style=social)](https://github.com/wasim007choudhary/BUSC-StableCoin-Protocol/network/members)
-[![GitHub Issues](https://img.shields.io/github/issues/wasim007choudhary/BUSC-StableCoin-Protocol)](https://github.com/wasim007choudhary/BUSC-StableCoin-Protocol/issues)
+[![GitHub Stars](https://img.shields.io/github/stars/wasim007choudhary/BUSC-Protocol-DeFI-Stablecoin?style=social)](https://github.com/wasim007choudhary/BUSC-Protocol-DeFI-Stablecoin/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/wasim007choudhary/BUSC-Protocol-DeFI-Stablecoin?style=social)](https://github.com/wasim007choudhary/BUSC-Protocol-DeFI-Stablecoin/network/members)
+[![GitHub Issues](https://img.shields.io/github/issues/wasim007choudhary/BUSC-Protocol-DeFI-Stablecoin)](https://github.com/wasim007choudhary/BUSC-Protocol-DeFI-Stablecoin/issues)
 
 [![Solidity](https://img.shields.io/badge/solidity-^0.8.20-blue.svg?logo=ethereum)](https://soliditylang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
@@ -24,10 +24,10 @@ Built with [Solidity](https://soliditylang.org/) • Powered by [Foundry](https:
 
 ```bash
 # Clone the repository
-git clone https://github.com/wasim007choudhary/BUSC-StableCoin-Protocol.git
+git clone https://github.com/wasim007choudhary/BUSC-Protocol-DeFI-Stablecoin.git
 
 # Enter project directory
-cd BUSC-StableCoin-Protocol
+cd BUSC-Protocol-DeFI-Stablecoin
 
 # Install dependencies
 forge install
