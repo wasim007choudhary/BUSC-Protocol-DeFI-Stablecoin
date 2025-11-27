@@ -3,7 +3,7 @@
 
 # 🏦 The BUSC Stablecoin Protocol
 
-** Stablecoin(BUSC) **  
+***Stablecoin(BUSC)***  
 Built with [Solidity](https://soliditylang.org/) • Powered by [Foundry](https://getfoundry.sh)
 
 [![GitHub Stars](https://img.shields.io/github/stars/wasim007choudhary/BUSC-Protocol-DeFI-Stablecoin?style=social)](https://github.com/wasim007choudhary/BUSC-Protocol-DeFI-Stablecoin/stargazers)
