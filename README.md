@@ -14,6 +14,9 @@ Built with [Solidity](https://soliditylang.org/) • Powered by [Foundry](https:
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![Foundry](https://img.shields.io/badge/Framework-Foundry-orange)](https://getfoundry.sh)
 
+[![X (Twitter)](https://img.shields.io/badge/X-@i___wasim-black?logo=x)](https://x.com/i___wasim)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Wasim%20Choudhary-blue?logo=linkedin)](https://www.linkedin.com/in/wasim-007-choudhary/)
+
 </div>
 
 ---
