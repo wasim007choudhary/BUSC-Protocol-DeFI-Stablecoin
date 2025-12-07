@@ -21,7 +21,7 @@ Built with [Solidity](https://soliditylang.org/) • Powered by [Foundry](https:
 
 ---
 
-## ⚙️ Installation
+## ⚙️ Installation x
 
 > Requires [Foundry](https://getfoundry.sh) to be installed.
 
